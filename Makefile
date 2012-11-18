@@ -1,13 +1,16 @@
-Nokia5110_sample: Nokia5110_sample.o Nokia5110.o RPiGPIO.o RPiSPI.o
-	cc -g -o Nokia5110_sample Nokia5110_sample.o Nokia5110.o RPiGPIO.o RPiSPI.o
+TARGET	= Nokia5110_sample
 
-Nokia5110_sample.o: Nokia5110_sample.c
-Nokia5110.o: Nokia5110.c
-RPiGPIO.o: RPiGPIO.c
-RPiSPI.o: RPiSPI.c
+$(TARGET): example/Nokia5110_sample.o src/Nokia5110.o src/RPiGPIO.o src/RPiSPI.o
+	cc -g $^ -o $@
+
+Nokia5110_sample.o: example/Nokia5110_sample.c
+Nokia5110.o: src/Nokia5110.c
+RPiGPIO.o: src/RPiGPIO.c
+RPiSPI.o: src/RPiSPI.c
 
 .c.o:
-	cc -g -c $<
+	cc -g -o $@ -c $^
 
 clean:
-	rm *.o
+	rm src/*.o example/*.o
+	rm $(TARGET)
