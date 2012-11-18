@@ -5,7 +5,7 @@ Nokia5110 Library for Raspberry Pi based on spidev driver.
 ##Getting Started
 -------
 
-![Wiring Diaglam](RPi-Nokia5110/master/example/Wiring-Diagram.png)
+![Wiring Diaglam](https://raw.github.com/shrhdk/RPi-Nokia5110/master/example/Wiring-Diagram.png)
 
 ```bash
 $ git clone https://github.com/shrhdk/RPi-Nokia5110.git
