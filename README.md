@@ -1,10 +1,10 @@
-#RPi-Nokia5110
+# RPi-Nokia5110
 
 Nokia5110 Library for Raspberry Pi based on spidev driver.
 
 ![Sample](https://raw.github.com/shrhdk/RPi-Nokia5110/master/example/sample-image.jpg)
 
-##Getting Started
+## Getting Started
 
 ![Wiring Diaglam](https://raw.github.com/shrhdk/RPi-Nokia5110/master/example/Wiring-Diagram.png)
 
@@ -15,6 +15,6 @@ $ make
 $ sudo ./Nokia5110_sample
 ```
 
-##Thanks
+## Credits
 
-GPIO‚ğ§Œä‚·‚éƒvƒƒOƒ‰ƒ€‚Í[Interface 2012”N12Œ†](http://www.kumikomi.net/interface/contents/201212.php)‚ÅĞ‰î‚³‚ê‚Ä‚¢‚½ƒ\[ƒXƒR[ƒh‚ğ‚à‚Æ‚Éì‚è‚Ü‚µ‚½B
+GPIOã‚’åˆ¶å¾¡ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯[Interface 2012å¹´12æœˆå·](http://www.kumikomi.net/interface/contents/201212.php)ã§ç´¹ä»‹ã•ã‚Œã¦ã„ãŸã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ã‚‚ã¨ã«ä½œã‚Šã¾ã—ãŸã€‚
